@@ -151,7 +151,7 @@ void deleteFirstEven() {
     }
 }
 
-//вывод меню
+
 void main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
@@ -181,7 +181,7 @@ void main() {
         printf("  0: Выйти\n");
         printf("Выбранная операция >>>>>> ");
         scanf_s("%d", &item);
-        //само меню
+
         switch (item) {
         case 1:  keyboardInput();
             break;
